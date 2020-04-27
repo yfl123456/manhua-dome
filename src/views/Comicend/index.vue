@@ -22,7 +22,7 @@
       <div class="item">
         <div class="item-pic">
           <img
-            src="https://img.manhua.weibo.com/hcover/2018/08/21/3471934934_kzPR1PMX.jpg"
+            src="https://img.manhua.weibo.com/hcover/2018/08/21/3471934934_x0qG3q76.jpg"
             alt=""
           />
         </div>
