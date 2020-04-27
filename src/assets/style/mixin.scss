@@ -1,0 +1,42 @@
+@mixin border-botter {
+  position: relative;
+  &::after {
+    content: '';
+    transform: scaleY(0.5);
+    width: 100%;
+    height: 1px;
+    background-color: #e6e6e6;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@mixin border-max {
+  position: relative;
+  &::after {
+    content: '';
+    transform: scaleY(0.5);
+    width: 100%;
+    height: 15px;
+    background-color: #f8f8f8;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+@mixin home-icon {
+  position: relative;
+  &::after {
+    content: '';
+    width: 23px;
+    height: 23px;
+    display: block;
+    background: url('../../assets/images/default_avatar.png') no-repeat center
+      center / 100%;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+  }
+}
