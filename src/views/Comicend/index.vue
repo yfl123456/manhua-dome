@@ -100,8 +100,17 @@ export default {
   }
 }
 
+// 完结滚动条
+.page-Comicend {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 // 完结列表
 .comicend-list {
+  flex: 1;
+  overflow-y: auto;
   .item {
     .item-pic {
       border-radius: 10px;
