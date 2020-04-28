@@ -1,5 +1,5 @@
 <template>
-  <div class="page-Ranking">
+  <section class="page-Ranking">
     <!-- 内页头部 -->
     <header class="inner-header">
       <div class="inner-left"></div>
@@ -174,7 +174,7 @@
       </div>
     </section>
     <!-- 排行榜列表 end -->
-  </div>
+  </section>
 </template>
 
 <script>
