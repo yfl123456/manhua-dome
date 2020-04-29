@@ -86,8 +86,8 @@ export default {
     text-align: center;
   }
   .inner-right {
-    width: 40px;
-    height: 40px;
+    // width: 40px;
+    // height: 40px;
   }
 }
 .my-header {
