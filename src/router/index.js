@@ -16,6 +16,7 @@ import Ranking from '../views/Ranking'
 import SarchResult from '../views/SarchResult'
 import Search from '../views/Search'
 import Register from '../views/Register'
+import SearchList from '../views/SearchList'
 
 // 调用
 Vue.use(VueRouter)
@@ -34,6 +35,7 @@ const router = new VueRouter({
     { path: '/ranking', component: Ranking },
     { path: '/search', component: Search },
     { path: '/register', component: Register },
+    { path: '/searchlist', component: SearchList },
     { path: '/', redirect: '/home' }
   ]
 })
