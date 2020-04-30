@@ -153,6 +153,7 @@ export default {
     background: #fff;
     padding: 5px 10px;
     box-sizing: border-box;
+    border-radius: 5px;
     .search-icon {
       width: 37px;
       height: 37px;
