@@ -13,7 +13,7 @@ import Daypub from '../views/Daypub'
 import Login from '../views/Login'
 import My from '../views/My'
 import Ranking from '../views/Ranking'
-import SarchResult from '../views/SarchResult'
+import Details from '../views/Details'
 import Search from '../views/Search'
 import Register from '../views/Register'
 import SearchList from '../views/SearchList'
@@ -31,7 +31,7 @@ const router = new VueRouter({
     { path: '/daypub', component: Daypub },
     { path: '/login', component: Login },
     { path: '/my', component: My },
-    { path: '/sarchResult', component: SarchResult },
+    { path: '/Details', component: Details },
     { path: '/ranking', component: Ranking },
     { path: '/search', component: Search },
     { path: '/register', component: Register },
